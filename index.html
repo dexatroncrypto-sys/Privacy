@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy | Dexatron</title>
+<meta name="description" content="Privacy policies for DEXATRON VR and for DEXABOT and Quizbot on Telegram and Discord.">
+<link rel="icon" href="assets/dexatron_badge.jpg" type="image/jpeg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient" aria-hidden="true">
+  <span class="ambient-star ambient-star-a"></span>
+  <span class="ambient-star ambient-star-b"></span>
+  <span class="ambient-star ambient-star-c"></span>
+  <span class="ambient-star ambient-star-d"></span>
+  <span class="ambient-star ambient-star-e"></span>
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="https://dexatron.xyz" class="nav-brand">
+      <img src="assets/dexatron_badge.jpg" alt="Dexatron logo" class="nav-logo" width="36" height="36">
+      <span>Dexatron</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primaryNavigation">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-menu" id="primaryNavigation">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="./" aria-current="page">Privacy</a>
+        <a href="vr/">DEXATRON VR</a>
+        <a href="dexabot/">DEXABOT &amp; Quizbot</a>
+        <a href="https://dexatron.xyz">dexatron.xyz</a>
+      </nav>
+      <a href="https://t.me/+HoPFVyeDscowMzVk" target="_blank" rel="noopener" class="nav-cta">Join Telegram</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Privacy at Dexatron</p>
+    <h1>Your data. <span class="accent">Clearly explained.</span></h1>
+    <p class="lede">These policies cover the games and bots in the Dexatron universe. Pick the product you use to read what we collect, why we collect it, and how you can ask for it to be deleted.</p>
+    <div class="meta-pills">
+      <span class="pill">Effective 15 November 2026</span>
+      <span class="pill">UK GDPR</span>
+      <span class="pill">13+</span>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>The chain doesn't lie</span>
+      <span>Good Beans build a better tomorrow</span>
+      <span>No sale of your data</span>
+      <span>No ads tracking</span>
+      <span>You can ask us to delete it</span>
+      <span>The chain doesn't lie</span>
+      <span>Good Beans build a better tomorrow</span>
+      <span>No sale of your data</span>
+      <span>No ads tracking</span>
+      <span>You can ask us to delete it</span>
+    </div>
+  </div>
+
+  <section class="hub">
+    <div class="hub-grid">
+      <article class="hub-card">
+        <p class="eyebrow">Meta Quest</p>
+        <h2>DEXATRON VR</h2>
+        <p>The privacy policy for our upcoming VR fighting game on Meta Quest, including Meta account data, gameplay, multiplayer, optional Game Hub linking, and how to request deletion.</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="vr/">Read the VR policy</a>
+        </div>
+      </article>
+      <article class="hub-card">
+        <p class="eyebrow">Telegram &amp; Discord</p>
+        <h2>DEXABOT &amp; Quizbot</h2>
+        <p>The privacy policy for DEXABOT, Quizbot, and the DEXATRON Game Hub on Telegram and Discord, including commands, game progress, cross-platform play, and your rights.</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="dexabot/">Read the bot policy</a>
+        </div>
+      </article>
+    </div>
+    <p class="hub-note">Looking for the main Dexatron site? Head to <a href="https://dexatron.xyz">dexatron.xyz</a>. Official community chat is on <a href="https://t.me/+HoPFVyeDscowMzVk" target="_blank" rel="noopener">Telegram</a>.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/dexatron_badge.jpg" alt="Dexatron logo" class="footer-logo" width="26" height="26">
+      <span>Dexatron</span>
+    </div>
+    <p class="footer-tagline">Follow the chain. Find the truth.</p>
+    <div class="footer-links">
+      <a href="https://dexatron.xyz">dexatron.xyz</a>
+      <a href="vr/">DEXATRON VR privacy</a>
+      <a href="dexabot/">DEXABOT &amp; Quizbot privacy</a>
+    </div>
+    <p class="footer-motto">The chain doesn't lie.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('primaryNavigation');
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    });
+  }
+</script>
+</body>
+</html>
